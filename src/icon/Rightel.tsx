@@ -1,0 +1,17 @@
+import type { IIcon } from "./type"
+
+export const Rightel: React.FC<IIcon> = ({color="#000" , size=24}) => {
+    return (
+        <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fillRule="evenodd" clipRule="evenodd" d="M12 0C18.6183 0 24 5.37543 24 11.9941C24 18.6246 18.6183 24 12 24C5.36997 24 0 18.6246 0 11.9941C0 5.37543 5.36997 0 12 0ZM10.9284 2.69956C15.9568 2.69956 20.0314 6.81993 20.0314 11.8994C20.0314 16.9906 15.9568 21.111 10.9284 21.111C5.88813 21.111 1.81354 16.9906 1.81354 11.8994C1.81354 6.81993 5.88813 2.69956 10.9284 2.69956Z" fill={color} />
+            <path fillRule="evenodd" clipRule="evenodd" d="M10.9754 2.94824C15.8978 2.94824 19.89 6.96206 19.89 11.8994C19.89 16.8486 15.8978 20.8506 10.9754 20.8506C6.05288 20.8506 2.07251 16.8486 2.07251 11.8994C2.07251 6.96206 6.05288 2.94824 10.9754 2.94824ZM11.9175 5.4702C15.6034 5.4702 18.5946 8.31183 18.5946 11.8165C18.5946 15.3212 15.6034 18.151 11.9175 18.151C8.23149 18.151 5.24032 15.3212 5.24032 11.8165C5.24032 8.31183 8.23149 5.4702 11.9175 5.4702Z" fill="url(#paint0_linear_2877_33039)" />
+            <defs>
+                <linearGradient id="paint0_linear_2877_33039" x1="2.06768" y1="11.9015" x2="19.8863" y2="11.9015" gradientUnits="userSpaceOnUse">
+                    <stop stopColor={color} />
+                    <stop offset="0.478431" stopColor={color} />
+                    <stop offset="1" stopColor={color} />
+                </linearGradient>
+            </defs>
+        </svg>
+    )
+}
