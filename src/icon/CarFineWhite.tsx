@@ -1,8 +1,9 @@
 import type { IIcon } from "./type"
 
 export const CarFineWhite: React.FC<IIcon> = ({color="#000" , size=24}) => {
+    // width="18" height="26"
     return (
-        <svg width="18" height="26" viewBox="0 0 18 26" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        <svg width="18" height="26" viewBox="0 0 18 26" fill={color} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <rect width="18" height="26" fill="url(#pattern0_10249_157158)" />
             <defs>
                 <pattern id="pattern0_10249_157158" patternContentUnits="objectBoundingBox" width="1" height="1">

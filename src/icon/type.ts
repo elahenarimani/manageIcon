@@ -11,14 +11,14 @@ type IconTypeName =
   "AddressBook" |
   "AngleBotton" |
   "AngleDown" |
-  "AngleDownThick" |
   "AngleDownSmall" |
+  "AngleDownThick" |
   "AngleLeftSmall" |
   "AngleRight" |
   "AnglesDown" |
   "AnglesDownSmall" |
-  "ArrowDownSmall" |
   "ArrowDownFromLine" |
+  "ArrowDownSmall" |
   "ArrowLeft" |
   "ArrowUpFromLine" |
   "ArrowUpSmall" |
@@ -47,8 +47,6 @@ type IconTypeName =
   "CheckCircle2" |
   "CheckDouble" |
   "CheckSquare" |
-  "ChequeDark" |
-  "ChequeLight" |
   "Circle" |
   "Circuit" |
   "ClipboardPlus" |
@@ -66,11 +64,12 @@ type IconTypeName =
   "D" |
   "DimaDark" |
   "DimaLogo" |
+  "DimaLogo2" |
   "DimaLogo3" |
   "DimaLogo4" |
-  "DimaLogo2" |
   "Document" |
   "DocumentList" |
+  "DocumentListSmall" |
   "Edit" |
   "Electricity" |
   "ElectricityWhite" |
@@ -88,7 +87,6 @@ type IconTypeName =
   "GasWhite" |
   "Gift" |
   "Globe" |
-  "Group" |
   "HamrahAval" |
   "HeadPhones" |
   "Home" |
@@ -99,18 +97,18 @@ type IconTypeName =
   "Irancell" |
   "Key" |
   "KeyCircle" |
-  "KycWatingDark" |
   "LayerGroup" |
   "Line" |
   "LocationPin" |
   "LogOut" |
+  "Mellat" |
+  "Mellat2" |
   "Melllat" |
   "Memoji" |
   "Message" |
   "MessageText" |
   "Messagestext2" |
   "Mobile" |
-  "MobileFrame" |
   "MoneyBill" |
   "MoneyBillBan" |
   "MoneyBillCheck" |
@@ -158,7 +156,6 @@ type IconTypeName =
   "Star" |
   "Sun" |
   "Telecom" |
-  "TopupDashedBorder" |
   "Trabord" |
   "Trash" |
   "TriangleExclamation" |

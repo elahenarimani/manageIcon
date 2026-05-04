@@ -1,6 +1,7 @@
 import type { IIcon } from "./type"
 
 export const Card: React.FC<IIcon> = ({ color = "#000", size = 24 }) => {
+    // width="45" height="37"
     return (
         <svg width="45" height="37" viewBox="0 0 45 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <rect width="45" height="37" fill="url(#pattern0_18002_27444)" />

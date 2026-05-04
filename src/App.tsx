@@ -1,5 +1,3 @@
-
-import { Activity } from 'react'
 import './App.css'
 import { Tow } from './icon/2'
 import { Three } from './icon/3'
@@ -31,8 +29,6 @@ import { BuildingsAlt } from './icon/BuildingsAlt'
 import { Calendar } from './icon/Calendar'
 import { CalendarCheckAlt } from './icon/CalendarCheckAlt'
 import { Camera } from './icon/Camera'
-// import { CarFine } from './icon/CarFine'
-// import { Card } from './icon/Card'
 import { CarFineWhite } from './icon/CarFineWhite'
 import { ChatDots } from './icon/ChatDots'
 import { ChatText } from './icon/ChatText'
@@ -43,8 +39,6 @@ import { CheckCircle2 } from './icon/CheckCircle2'
 import { CheckDouble } from './icon/CheckDouble'
 import { CheckSquare } from './icon/CheckSquare'
 import { AngleDownThick } from './icon/AngleDownThick'
-// import { Circle } from './icon/Circle'
-// import { Circuit } from './icon/Circuit'
 import { ClipboardPlus } from './icon/ClipboardPlus'
 import { Coins } from './icon/Coins'
 import { CommentLock } from './icon/CommentLock'
@@ -58,7 +52,7 @@ import { CreditCardPlus } from './icon/CreditCardPlus'
 import { CreditCardSlash } from './icon/CreditCardSlash'
 import { Cross } from './icon/Cross'
 import { DimaDark } from './icon/DimaDark'
-import { D } from './icon/D'
+import { DimaLogo1 } from './icon/DimaLogo1'
 import { DimaLogo } from './icon/DimaLogo'
 import { DimaLogo2 } from './icon/DimaLogo2'
 import { Document } from './icon/Document'
@@ -96,8 +90,6 @@ import { LocationPin } from './icon/LocationPin'
 import { DimaLogo3 } from './icon/DimaLogo3'
 import { DimaLogo4 } from './icon/DimaLogo4'
 import { LogOut } from './icon/LogOut'
-// import { Melllat } from './icon/Melllat'
-// import { Memoji } from './icon/Memoji'
 import { Message } from './icon/Message'
 import { MessageText } from './icon/MessageText'
 import { Messagestext2 } from './icon/Messagestext2'
@@ -133,13 +125,10 @@ import { Rial2 } from './icon/Rial2'
 import { Rightel } from './icon/Rightel'
 import { Rotate } from './icon/Rotate'
 import { RotateRight } from './icon/RotateRight'
-// import { Samantel } from './icon/Samantel'
-// import { Scale } from './icon/scale'
 import { ScanQr } from './icon/ScanQr'
 import { Search } from './icon/Search'
 import { SearchText } from './icon/SearchText'
 import { Share } from './icon/Share'
-// import { Shatel } from './icon/Shatel'
 import { ShieldCheck } from './icon/ShieldCheck'
 import { ShieldQuestion } from './icon/ShieldQuestion'
 import { SimCard } from './icon/SimCard'
@@ -178,6 +167,9 @@ import { Samantel } from './icon/Samantel'
 import { Scale } from './icon/Scale'
 import { Shatel } from './icon/Shatel'
 import { OneThreeFive } from './icon/135'
+import { Mellat } from './icon/Mellat'
+import { Mellat2 } from './icon/Mellat2'
+import { DocumentListSmall } from './icon/DocumentListSmall'
 
 
 function App() {
@@ -185,20 +177,20 @@ function App() {
     <div className='main-app'>
       <h1>hi</h1>
       <Tow />
-      <Three />
+      <Three color='#48484A'/>
       <OneThreeFive />
       <ActivitySquare />
       <AddressBook />
       <AngleBotton />
       <AngleDown />
-      <AngleDownThick />
       <AngleDownSmall />
+      <AngleDownThick />
       <AngleLeftSmall />
       <AngleRight />
       <AnglesDown />
       <AnglesDownSmall />
-      <ArrowDownSmall />
       <ArrowDownFromLine />
+      <ArrowDownSmall />
       <ArrowLeft />
       <ArrowUpFromLine />
       <ArrowUpSmall />
@@ -216,7 +208,7 @@ function App() {
       <Calendar />
       <CalendarCheckAlt />
       <Camera />
-      <Card /> 
+      <Card />
       <CarFine />
       <CarFineWhite />
       <ChatDots />
@@ -241,16 +233,17 @@ function App() {
       <CreditCardPlus />
       <CreditCardSlash />
       <Cross />
-      <D />
+      <DimaLogo1 />
       <div className='dima-dark w-full h-full '>
         <DimaDark />
       </div>
       <DimaLogo />
+      <DimaLogo2 />
       <DimaLogo3 />
       <DimaLogo4 />
-      <DimaLogo2 />
       <Document />
       <DocumentList />
+      <DocumentListSmall />
       <Edit />
       <Electricity />
       <ElectricityWhite />
@@ -282,11 +275,13 @@ function App() {
       <Line />
       <LocationPin />
       <LogOut />
+      <Mellat />
+      <Mellat2 />
       <Melllat />
       <Memoji />
       <Message />
-      <MessageText />
       <Messagestext2 />
+      <MessageText />
       <Mobile />
       <MoneyBill />
       <MoneyBillBan />
@@ -334,7 +329,7 @@ function App() {
       <SlidersHorizontalAlt />
       <Star />
       <Sun />
-      <Telecom color='#154897'/>
+      <Telecom color='#154897' />
       <Telecom />
       <Trabord />
       <Trash />

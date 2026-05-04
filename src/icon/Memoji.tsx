@@ -2,7 +2,7 @@ import type { IIcon } from "./type"
 
 export const Memoji: React.FC<IIcon> = ({color="#000" , size=24}) => {
     return (
-        <svg width="50" height="50" viewBox="0 0 50 50" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        <svg width={size} height={size} viewBox="0 0 50 50" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <rect width="50" height="50" fill="url(#pattern0_7078_36907)" />
             <defs>
                 <pattern id="pattern0_7078_36907" patternContentUnits="objectBoundingBox" width="1" height="1">

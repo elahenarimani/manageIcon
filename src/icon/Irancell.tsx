@@ -2,7 +2,7 @@ import type { IIcon } from "./type"
 
 export const Irancell: React.FC<IIcon> = ({color="#000" , size=24}) => {
     return (
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_2877_33047)">
                 <path d="M25.148 -1.47461H-1.11548V25.4682H25.148V-1.47461Z" fill="#FEFEFE" />
                 <path d="M23.9932 16.8096H0.00219727V23.981H23.9932V16.8096Z" fill="#FFBE00" />
