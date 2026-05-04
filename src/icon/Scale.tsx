@@ -3,7 +3,7 @@ import type { IIcon } from "./type"
 export const Scale: React.FC<IIcon> = ({color="#000" , size=24}) => {
 	return (
 		<svg fill={color} height={size} width={size} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
-			viewBox="0 0 330 330" xml:space="preserve">
+			viewBox="0 0 330 330" xmlSpace="preserve">
 			<g id="XMLID_16_">
 				<path id="XMLID_17_" d="M315,0h-60c-8.284,0-15,6.716-15,15s6.716,15,15,15h45v45c0,8.284,6.716,15,15,15s15-6.716,15-15V15
 		C330,6.716,323.284,0,315,0z"/>
