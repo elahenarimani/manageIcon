@@ -2,38 +2,13 @@ import type { IIcon } from "./type"
 
 export const Circuit: React.FC<IIcon> = ({color="#000" , size=24}) => {
     return (
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="61"
-   height="61"
+   width={size}
+   height={size}
    viewBox="0 0 61 61"
    fill="none"
-   version="1.1"
-   id="svg10"
-   sodipodi:docname="Circuit.svg"
-   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview10"
-     pagecolor="currentColor"
-     bordercolor="currentColor"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="currentColor"
-     inkscape:zoom="13.229508"
-     inkscape:cx="30.5"
-     inkscape:cy="30.5"
-     inkscape:windowWidth="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:currentLayer="svg10" />
+   >
   <g
      id="g10"
      transform="translate(-0.58607352,2.9402483)">
@@ -61,7 +36,7 @@ export const Circuit: React.FC<IIcon> = ({color="#000" , size=24}) => {
        d="m 11.2553,36.1936 c -1.89012,1.3733 -2.30911,4.0187 -0.9359,5.9087 1.3732,1.8901 4.0186,2.3091 5.9087,0.9359 1.8901,-1.3732 2.3091,-4.0186 0.9359,-5.9087 -1.3733,-1.8901 -4.0187,-2.3091 -5.9087,-0.9359 z"
        fill="currentColor"
        id="path4"
-       style="fill:url(#paint0_radial_12657_173552)" />
+       style={{fill:'url(#paint0_radial_12657_173552)'}} />
     <path
        d="M 43.6875,44.3589 C 34.1085,51.3184 20.7014,49.195 13.7418,39.616"
        stroke="currentColor"
@@ -69,9 +44,10 @@ export const Circuit: React.FC<IIcon> = ({color="#000" , size=24}) => {
        strokeLinecap="round"
        strokeDasharray="0.01, 5.22"
        id="path5"
-       style="currentColor"
-              opacity="0.4"
-
+       style={{
+       color: 'currentColor', 
+       opacity: 0.4
+       }}
         />
     <path
        opacity="0.5"
