@@ -1,13 +1,14 @@
-import type { IIcon } from "./type"
+import { ICON_CONSTANTS } from "../constants/icon-constants"
+import type { IIconProps } from "./type"
 
-export const Samantel: React.FC<IIcon> = ({color="#000" , size=24}) => {
+export const Samantel: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color , size=24}) => {
     return (
         <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <mask id="mask0_2877_33063"  style={{maskType:'alpha'}} maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                 <rect width="24" height="24" fill="url(#pattern0_2877_33063)" />
             </mask>
             <g mask="url(#mask0_2877_33063)">
-                <rect x="0.375" y="0.375" width="23.25" height="23.25" fill={color} />
+                <rect x="0.375" y="0.375" width="23.25" height="23.25" fill={color || ICON_CONSTANTS.color} />
             </g>
             <defs>
                 <pattern id="pattern0_2877_33063" patternContentUnits="objectBoundingBox" width="1" height="1">

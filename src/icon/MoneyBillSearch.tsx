@@ -1,6 +1,7 @@
-import type { IIcon } from "./type"
+import { ICON_CONSTANTS } from "../constants/icon-constants"
+import type { IIconProps } from "./type"
 
-export const MoneyBillSearch: React.FC<IIcon> = ({color="#000" , size=24}) => {
+export const MoneyBillSearch: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color , size=24}) => {
     return (
         <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
             <path d="M13.5 18C13.5 18.276 13.276 18.5 13 18.5H5C2.71 18.5 1.5 17.29 1.5 15V7C1.5 4.71 2.71 3.5 5 3.5H17C19.29 3.5 20.5 4.71 20.5 7V11C20.5 11.276 20.276 11.5 20 11.5C19.724 11.5 19.5 11.276 19.5 11V7C19.5 5.271 18.729 4.5 17 4.5H5C3.271 4.5 2.5 5.271 2.5 7V15C2.5 16.729 3.271 17.5 5 17.5H13C13.276 17.5 13.5 17.724 13.5 18ZM4.25 11.007C4.25 11.421 4.586 11.757 5 11.757C5.414 11.757 5.75 11.421 5.75 11.007C5.75 10.593 5.414 10.257 5 10.257C4.586 10.257 4.25 10.593 4.25 11.007ZM14.5 11C14.5 12.93 12.93 14.5 11 14.5C9.07 14.5 7.5 12.93 7.5 11C7.5 9.07 9.07 7.5 11 7.5C12.93 7.5 14.5 9.07 14.5 11ZM13.5 11C13.5 9.622 12.378 8.5 11 8.5C9.622 8.5 8.5 9.622 8.5 11C8.5 12.378 9.622 13.5 11 13.5C12.378 13.5 13.5 12.378 13.5 11Z" fill={color} />

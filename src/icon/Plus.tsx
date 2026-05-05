@@ -1,6 +1,7 @@
-import type { IIcon } from "./type"
+import { ICON_CONSTANTS } from "../constants/icon-constants"
+import type { IIconProps } from "./type"
 
-export const Plus: React.FC<IIcon> = ({color="#000" , size=24}) => {
+export const Plus: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color , size=24}) => {
     return (
         <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
             <path d="M19 11H13V5C13 4.448 12.552 4 12 4C11.448 4 11 4.448 11 5V11H5C4.448 11 4 11.448 4 12C4 12.552 4.448 13 5 13H11V19C11 19.552 11.448 20 12 20C12.552 20 13 19.552 13 19V13H19C19.552 13 20 12.552 20 12C20 11.448 19.552 11 19 11Z" fill={color} />

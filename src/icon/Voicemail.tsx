@@ -1,6 +1,7 @@
-import type { IIcon } from "./type"
+import { ICON_CONSTANTS } from "../constants/icon-constants"
+import type { IIconProps } from "./type"
 
-export const Voicemail: React.FC<IIcon> = ({color="#000" , size=24}) => {
+export const Voicemail: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color , size=24}) => {
     return (
         <svg width={size} height={size} viewBox="0 0 24 22" fill={color} xmlns="http://www.w3.org/2000/svg">
             <path d="M17.501 7.5C15.295 7.5 13.501 9.294 13.501 11.5C13.501 12.7 14.0431 13.766 14.8831 14.5H9.11792C9.95792 13.766 10.5 12.7 10.5 11.5C10.5 9.294 8.706 7.5 6.5 7.5C4.294 7.5 2.5 9.294 2.5 11.5C2.5 13.706 4.294 15.5 6.5 15.5H17.5C19.706 15.5 21.5 13.706 21.5 11.5C21.5 9.294 19.707 7.5 17.501 7.5ZM3.50098 11.5C3.50098 9.846 4.84698 8.5 6.50098 8.5C8.15498 8.5 9.50098 9.846 9.50098 11.5C9.50098 13.154 8.15498 14.5 6.50098 14.5C4.84698 14.5 3.50098 13.154 3.50098 11.5ZM17.501 14.5C15.847 14.5 14.501 13.154 14.501 11.5C14.501 9.846 15.847 8.5 17.501 8.5C19.155 8.5 20.501 9.846 20.501 11.5C20.501 13.154 19.155 14.5 17.501 14.5Z" fill={color} />

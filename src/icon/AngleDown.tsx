@@ -1,6 +1,7 @@
-import type { IIcon } from "./type"
+import { ICON_CONSTANTS } from "../constants/icon-constants"
+import type { IIconProps } from "./type"
 
-export const AngleDown: React.FC<IIcon> = ({color="#000" , size=24}) => {
+export const AngleDown: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color , size=24}) => {
     // width="21" height="20"
     return (
         <svg width={size} height={size} viewBox="0 0 21 20" fill={color} xmlns="http://www.w3.org/2000/svg">

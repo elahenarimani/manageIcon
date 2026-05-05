@@ -1,6 +1,7 @@
-import type { IIcon } from "./type"
+import { ICON_CONSTANTS } from "../constants/icon-constants"
+import type { IIconProps } from "./type"
 
-export const Rightel: React.FC<IIcon> = ({ color = "#000", size = 24 }) => {
+export const Rightel: React.FC<IIconProps> = ({ color=ICON_CONSTANTS.color, size = 24 }) => {
     return (
         <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C18.6183 0 24 5.37543 24 11.9941C24 18.6246 18.6183 24 12 24C5.36997 24 0 18.6246 0 11.9941C0 5.37543 5.36997 0 12 0ZM10.9284 2.69956C15.9568 2.69956 20.0314 6.81993 20.0314 11.8994C20.0314 16.9906 15.9568 21.111 10.9284 21.111C5.88813 21.111 1.81354 16.9906 1.81354 11.8994C1.81354 6.81993 5.88813 2.69956 10.9284 2.69956Z" fill="#9C0E74" />

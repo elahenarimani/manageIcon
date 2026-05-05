@@ -1,6 +1,7 @@
-import type { IIcon } from "./type"
+import { ICON_CONSTANTS } from "../constants/icon-constants"
+import type { IIconProps } from "./type"
 
-export const SimCard: React.FC<IIcon> = ({color="#000" , size=24}) => {
+export const SimCard: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color , size=24}) => {
     return (
         <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
             <path opacity="0.4" d="M16 21H8C6 21 5 20 5 18V6C5 4 6 3 8 3H13.3789C13.7769 3 14.1579 3.15796 14.4399 3.43896L18.561 7.56006C18.842 7.84106 19 8.22309 19 8.62109V18C19 20 18 21 16 21Z" fill={color} />

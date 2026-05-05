@@ -1,6 +1,7 @@
-import type { IIcon } from "./type"
+import { ICON_CONSTANTS } from "../constants/icon-constants"
+import type { IIconProps } from "./type"
 
-export const AngleBotton: React.FC<IIcon> = ({color="#000" , size=24}) => {
+export const AngleBotton: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color , size=24}) => {
     return (
         <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
             <path d="M16.9998 9.99972C16.9998 10.2557 16.9018 10.5117 16.7068 10.7067L12.7068 14.7067C12.3158 15.0977 11.6838 15.0977 11.2928 14.7067L7.29276 10.7067C6.90176 10.3158 6.90176 9.68369 7.29276 9.29269C7.68376 8.90169 8.31582 8.90169 8.70682 9.29269L11.9998 12.5857L15.2928 9.29269C15.6838 8.90169 16.3158 8.90169 16.7068 9.29269C16.9018 9.48769 16.9998 9.74372 16.9998 9.99972Z" fill={color} />

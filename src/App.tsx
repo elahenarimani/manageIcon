@@ -1,355 +1,56 @@
+import { useState } from 'react'
 import './App.css'
-import { Tow } from './icon/2'
-import { Three } from './icon/3'
-import { ArrowLeft } from './icon/ArrowLeft'
-import { ActivitySquare } from './icon/ActivitySquare'
-import { AddressBook } from './icon/AddressBook'
-import { AngleBotton } from './icon/AngleBotton'
-import { AngleDown } from './icon/AngleDown'
-import { AngleDownSmall } from './icon/AngleDownSmall'
-import { AngleLeftSmall } from './icon/AngleLeftSmall'
-import { AngleRight } from './icon/AngleRight'
-import { AnglesDown } from './icon/AnglesDown'
-import { AnglesDownSmall } from './icon/AnglesDownSmall'
-import { ArrowDownSmall } from './icon/ArrowDownSmall'
-import { ArrowDownFromLine } from './icon/ArrowDownFromLine'
-import { ArrowUpFromLine } from './icon/ArrowUpFromLine'
-import { ArrowUpSmall } from './icon/ArrowUpSmall'
-import { Bank } from './icon/Bank'
-import { Bell } from './icon/Bell'
-import { BlueBank } from './icon/BlueBank'
-import { Bolt } from './icon/Bolt'
-import { BookmarkFill } from './icon/BookmarkFill'
-import { BookmarkStar } from './icon/BookmarkStar'
-import { Briefcase } from './icon/Briefcase'
-import { BriefcaseCheck } from './icon/BriefcaseCheck'
-import { BriefcaseMoney } from './icon/BriefcaseMoney'
-import { BriefcasePlus } from './icon/BriefcasePlus'
-import { BuildingsAlt } from './icon/BuildingsAlt'
-import { Calendar } from './icon/Calendar'
-import { CalendarCheckAlt } from './icon/CalendarCheckAlt'
-import { Camera } from './icon/Camera'
-import { CarFineWhite } from './icon/CarFineWhite'
-import { ChatDots } from './icon/ChatDots'
-import { ChatText } from './icon/ChatText'
-import { Check } from './icon/Check'
-import { Checkbox } from './icon/Checkbox'
-import { CheckCircle } from './icon/CheckCircle'
-import { CheckCircle2 } from './icon/CheckCircle2'
-import { CheckDouble } from './icon/CheckDouble'
-import { CheckSquare } from './icon/CheckSquare'
-import { AngleDownThick } from './icon/AngleDownThick'
-import { ClipboardPlus } from './icon/ClipboardPlus'
-import { Coins } from './icon/Coins'
-import { CommentLock } from './icon/CommentLock'
-import { Copy } from './icon/Copy'
-import { CopyAlt } from './icon/CopyAlt'
-import { CreditCard } from './icon/CreditCard'
-import { CreditCardCheck } from './icon/CreditCardCheck'
-import { CreditCardConvert } from './icon/CreditCardConvert'
-import { CreditCardEdit } from './icon/CreditCardEdit'
-import { CreditCardPlus } from './icon/CreditCardPlus'
-import { CreditCardSlash } from './icon/CreditCardSlash'
-import { Cross } from './icon/Cross'
-import { DimaDark } from './icon/DimaDark'
-import { DimaLogo1 } from './icon/DimaLogo1'
-import { DimaLogo } from './icon/DimaLogo'
-import { DimaLogo2 } from './icon/DimaLogo2'
-import { Document } from './icon/Document'
-import { DocumentList } from './icon/DocumentList'
-import { Edit } from './icon/Edit'
-import { Electricity } from './icon/Electricity'
-import { ElectricityWhite } from './icon/ElectricityWhite'
-import { Exchange } from './icon/Exchange'
-import { ExchangeHorizontal } from './icon/ExchangeHorizontal'
-import { ExclamationCircle } from './icon/ExclamationCircle'
-import { Eye } from './icon/Eye'
-import { EyeSlash } from './icon/EyeSlash'
-import { FaildIcon } from './icon/FaildIcon'
-import { FilePdf } from './icon/FilePdf'
-import { FilterPlus } from './icon/FilterPlus'
-import { FingerPrint } from './icon/FingerPrint'
-import { Gallery } from './icon/Gallery'
-import { Gas } from './icon/Gas'
-import { GasWhite } from './icon/GasWhite'
-import { Gift } from './icon/Gift'
-import { Globe } from './icon/Globe'
-import { HamrahAval } from './icon/HamrahAval'
-import { HeadPhones } from './icon/HeadPhones'
-import { Home } from './icon/Home'
-import { IconRotateRight90 } from './icon/IconRotateRight90'
-import { IdCard } from './icon/IdCard'
-import { ImageGallery } from './icon/ImageGallery'
-import { Invoice } from './icon/Invoice'
-import { Irancell } from './icon/Irancell'
-import { Key } from './icon/Key'
-import { KeyCircle } from './icon/KeyCircle'
-import { LayerGroup } from './icon/LayerGroup'
-import { Line } from './icon/Line'
-import { LocationPin } from './icon/LocationPin'
-import { DimaLogo3 } from './icon/DimaLogo3'
-import { DimaLogo4 } from './icon/DimaLogo4'
-import { LogOut } from './icon/LogOut'
-import { Message } from './icon/Message'
-import { MessageText } from './icon/MessageText'
-import { Messagestext2 } from './icon/Messagestext2'
-import { Mobile } from './icon/Mobile'
-import { MoneyBill } from './icon/MoneyBill'
-import { MoneyBillBan } from './icon/MoneyBillBan'
-import { MoneyBillCheck } from './icon/MoneyBillCheck'
-import { MoneyBillConvert } from './icon/MoneyBillConvert'
-import { MoneyBillReceive } from './icon/MoneyBillReceive'
-import { MoneyBills } from './icon/MoneyBills'
-import { MoneyBillSearch } from './icon/MoneyBillSearch'
-import { MoneyBillSend } from './icon/MoneyBillSend'
-import { MoneyBillTimes } from './icon/MoneyBillTimes'
-import { MoneyWithdrawal } from './icon/MoneyWithdrawal'
-import { Moon } from './icon/Moon'
-import { MoreHorizontal } from './icon/MoreHorizontal'
-import { MoreVertical } from './icon/MoreVertical'
-import { MyLoan } from './icon/MyLoan'
-import { Nut } from './icon/Nut'
-import { Pen } from './icon/Pen'
-import { PenLine } from './icon/PenLine'
-import { PhoneOffice } from './icon/PhoneOffice'
-import { Pin } from './icon/Pin'
-import { PinLight } from './icon/PinLight'
-import { Plus } from './icon/Plus'
-import { PlusCircle } from './icon/PlusCircle'
-import { Post } from './icon/Post'
-import { QuestionCircle } from './icon/QuestionCircle'
-import { RadioButton } from './icon/RadioButton'
-import { RecepieSearch } from './icon/RecepieSearch'
-import { Rial } from './icon/Rial'
-import { Rial2 } from './icon/Rial2'
-import { Rightel } from './icon/Rightel'
-import { Rotate } from './icon/Rotate'
-import { RotateRight } from './icon/RotateRight'
-import { ScanQr } from './icon/ScanQr'
-import { Search } from './icon/Search'
-import { SearchText } from './icon/SearchText'
-import { Share } from './icon/Share'
-import { ShieldCheck } from './icon/ShieldCheck'
-import { ShieldQuestion } from './icon/ShieldQuestion'
-import { SimCard } from './icon/SimCard'
-import { Simcard2 } from './icon/Simcard2'
-import { SlidersHorizontal } from './icon/SlidersHorizontal'
-import { SlidersHorizontalAlt } from './icon/SlidersHorizontalAlt'
-import { Star } from './icon/Star'
-import { Sun } from './icon/Sun'
-import { Telecom } from './icon/Telecom'
-import { Trabord } from './icon/Trabord'
-import { Trash } from './icon/Trash'
-import { TriangleExclamation } from './icon/TriangleExclamation'
-import { Truck } from './icon/Truck'
-import { Unlock } from './icon/Unlock'
-import { Upload2 } from './icon/Upload2'
-import { User } from './icon/User'
-import { User2 } from './icon/User2'
-import { UserChange } from './icon/UserChange'
-import { UserCircle } from './icon/UserCircle'
-import { UserOutline } from './icon/UserOutline'
-import { UserPlus } from './icon/UserPlus'
-import { UserSearch } from './icon/UserSearch'
-import { UserSquare } from './icon/UserSquare'
-import { Vector } from './icon/Vector'
-import { Video } from './icon/Video'
-import { Voicemail } from './icon/Voicemail'
-import { Water } from './icon/Water'
-import { WaterWhite } from './icon/WaterWhite'
-import { Card } from './icon/Card'
-import { Melllat } from './icon/Melllat'
-import { CarFine } from './icon/CarFine'
-import { Circle } from './icon/Circle'
-import { Circuit } from './icon/Circuit'
-import { Memoji } from './icon/Memoji'
-import { Samantel } from './icon/Samantel'
-import { Scale } from './icon/Scale'
-import { Shatel } from './icon/Shatel'
-import { OneThreeFive } from './icon/135'
-import { Mellat } from './icon/Mellat'
-import { Mellat2 } from './icon/Mellat2'
-import { DocumentListSmall } from './icon/DocumentListSmall'
+import DimaIcon from './icon/dimaIcon/DimaIcon'
+import { ICON_COLLECTION } from './icon/dimaIcon/ICON_COLLECTION'
+import type { TIconName } from './icon/type'
 
 
 function App() {
+  const [search, setSearch] = useState("")
+  const [color, setColor] = useState("")
+  const [size, setSize] = useState(24)
+  const iconSize = [
+    { label: 'xs', value: '16' },
+    { label: 'sm', value: '20' },
+    { label: 'md', value: '24' },
+    { label: 'lg', value: '32' },
+    { label: 'xl', value: '48' },
+  ]
+  const icons = (Object.keys(ICON_COLLECTION) as TIconName[])
+    .filter((name) =>
+      name.toLowerCase().includes(search.toLowerCase())
+    )
   return (
-    <div className='main-app'>
-      <h1>hi</h1>
-      <Tow />
-      <Three color='#48484A'/>
-      <OneThreeFive />
-      <ActivitySquare />
-      <AddressBook />
-      <AngleBotton />
-      <AngleDown />
-      <AngleDownSmall />
-      <AngleDownThick />
-      <AngleLeftSmall />
-      <AngleRight />
-      <AnglesDown />
-      <AnglesDownSmall />
-      <ArrowDownFromLine />
-      <ArrowDownSmall />
-      <ArrowLeft />
-      <ArrowUpFromLine />
-      <ArrowUpSmall />
-      <Bank />
-      <Bell />
-      <BlueBank />
-      <Bolt />
-      <BookmarkFill />
-      <BookmarkStar />
-      <Briefcase />
-      <BriefcaseCheck />
-      <BriefcaseMoney />
-      <BriefcasePlus />
-      <BuildingsAlt />
-      <Calendar />
-      <CalendarCheckAlt />
-      <Camera />
-      <Card />
-      <CarFine />
-      <CarFineWhite />
-      <ChatDots />
-      <ChatText />
-      <Check />
-      <Checkbox />
-      <CheckCircle />
-      <CheckCircle2 />
-      <CheckDouble />
-      <CheckSquare />
-      <Circle />
-      <Circuit />
-      <ClipboardPlus />
-      <Coins />
-      <CommentLock />
-      <Copy />
-      <CopyAlt />
-      <CreditCard />
-      <CreditCardCheck />
-      <CreditCardConvert />
-      <CreditCardEdit />
-      <CreditCardPlus />
-      <CreditCardSlash />
-      <Cross />
-      <DimaLogo1 />
-      <div className='dima-dark w-full h-full '>
-        <DimaDark />
+    <div className='main-app bg-white'>
+      <input placeholder="Search icon..." value={search} onChange={(e) => setSearch(e.target.value)} />
+      <input
+        placeholder="Enter color like #000000"
+        value={color}
+        type='color'
+        onChange={(e) => setColor(e.target.value)}
+        style={{ marginLeft: 10 }}
+      />
+      <select value={size}
+        onChange={(e) => setSize(Number(e.target.value))}>
+        {iconSize.map(item => (
+          <option key={item.label} value={item.value}>
+            {item.label} ({item.value}px)
+          </option>
+        ))}
+      </select>
+      <div className='max-w-full h-full flex gap-y-15  gap-x-5 flex-wrap mx-20'>
+        {icons.map((name) => (
+          <div  key={name} className='w-full flex flex-col  justify-between items-center gap-5 flex-1 '>
+            <DimaIcon
+              name={name}
+              size={size}
+              color={color}
+            />
+            <p className='w-full text-center'>{name}</p>
+          </div>
+        ))}
       </div>
-      <DimaLogo />
-      <DimaLogo2 />
-      <DimaLogo3 />
-      <DimaLogo4 />
-      <Document />
-      <DocumentList />
-      <DocumentListSmall />
-      <Edit />
-      <Electricity />
-      <ElectricityWhite />
-      <Exchange />
-      <ExchangeHorizontal />
-      <ExclamationCircle />
-      <Eye />
-      <EyeSlash />
-      <FaildIcon />
-      <FilePdf />
-      <FilterPlus />
-      <FingerPrint />
-      <Gallery />
-      <Gas />
-      <GasWhite />
-      <Gift />
-      <Globe />
-      <HamrahAval />
-      <HeadPhones />
-      <Home />
-      <IconRotateRight90 />
-      <IdCard />
-      <ImageGallery />
-      <Invoice />
-      <Irancell />
-      <Key />
-      <KeyCircle />
-      <LayerGroup />
-      <Line />
-      <LocationPin />
-      <LogOut />
-      <Mellat />
-      <Mellat2 />
-      <Melllat />
-      <Memoji />
-      <Message />
-      <Messagestext2 />
-      <MessageText />
-      <Mobile />
-      <MoneyBill />
-      <MoneyBillBan />
-      <MoneyBillCheck />
-      <MoneyBillConvert />
-      <MoneyBillReceive />
-      <MoneyBills />
-      <MoneyBillSearch />
-      <MoneyBillSend />
-      <MoneyBillTimes />
-      <MoneyWithdrawal />
-      <Moon />
-      <MoreHorizontal />
-      <MoreVertical />
-      <MyLoan />
-      <Nut />
-      <Pen />
-      <PenLine />
-      <PhoneOffice />
-      <Pin />
-      <PinLight />
-      <Plus />
-      <PlusCircle />
-      <Post />
-      <QuestionCircle />
-      <RadioButton />
-      <RecepieSearch />
-      <Rial />
-      <Rial2 />
-      <Rightel />
-      <Rotate />
-      <RotateRight />
-      <Samantel color='#E95B0C' />
-      <Scale />
-      <ScanQr />
-      <Search />
-      <SearchText />
-      <Share />
-      <Shatel />
-      <ShieldCheck />
-      <ShieldQuestion />
-      <SimCard />
-      <Simcard2 />
-      <SlidersHorizontal />
-      <SlidersHorizontalAlt />
-      <Star />
-      <Sun />
-      <Telecom color='#154897' />
-      <Telecom />
-      <Trabord />
-      <Trash />
-      <TriangleExclamation />
-      <Truck />
-      <Unlock />
-      <Upload2 />
-      <User />
-      <User2 />
-      <UserChange />
-      <UserCircle />
-      <UserOutline />
-      <UserPlus />
-      <UserSearch />
-      <UserSquare />
-      <Vector />
-      <Video />
-      <Voicemail />
-      <Water />
-      <WaterWhite />
+
     </div>
   )
 }

@@ -1,12 +1,10 @@
-
-export interface IIcon {
+export interface IIconProps {
   color?: string;
   size?: number | string;
 };
-type IconTypeName =
-  "Two" |
-  "Three" |
-  "OneThreeFive" |
+
+
+export type TIconName =
   "ActivitySquare" |
   "AddressBook" |
   "AngleBotton" |
@@ -24,7 +22,6 @@ type IconTypeName =
   "ArrowUpSmall" |
   "Bank" |
   "Bell" |
-  "BlueBank" |
   "Bolt" |
   "BookmarkFill" |
   "BookmarkStar" |
@@ -36,9 +33,6 @@ type IconTypeName =
   "Calendar" |
   "CalendarCheckAlt" |
   "Camera" |
-  "Card " |
-  "CarFine" |
-  "CarFineWhite" |
   "ChatDots" |
   "ChatText" |
   "Check" |
@@ -47,8 +41,6 @@ type IconTypeName =
   "CheckCircle2" |
   "CheckDouble" |
   "CheckSquare" |
-  "Circle" |
-  "Circuit" |
   "ClipboardPlus" |
   "Coins" |
   "CommentLock" |
@@ -61,18 +53,10 @@ type IconTypeName =
   "CreditCardPlus" |
   "CreditCardSlash" |
   "Cross" |
-  "D" |
-  "DimaDark" |
-  "DimaLogo" |
-  "DimaLogo2" |
-  "DimaLogo3" |
-  "DimaLogo4" |
   "Document" |
   "DocumentList" |
   "DocumentListSmall" |
   "Edit" |
-  "Electricity" |
-  "ElectricityWhite" |
   "Exchange" |
   "ExchangeHorizontal" |
   "ExclamationCircle" |
@@ -83,28 +67,21 @@ type IconTypeName =
   "FilterPlus" |
   "FingerPrint" |
   "Gallery" |
-  "Gas" |
   "GasWhite" |
   "Gift" |
   "Globe" |
-  "HamrahAval" |
   "HeadPhones" |
   "Home" |
   "IconRotateRight90" |
   "IdCard" |
   "ImageGallery" |
   "Invoice" |
-  "Irancell" |
   "Key" |
   "KeyCircle" |
   "LayerGroup" |
   "Line" |
   "LocationPin" |
   "LogOut" |
-  "Mellat" |
-  "Mellat2" |
-  "Melllat" |
-  "Memoji" |
   "Message" |
   "MessageText" |
   "Messagestext2" |
@@ -137,31 +114,24 @@ type IconTypeName =
   "RecepieSearch" |
   "Rial" |
   "Rial2" |
-  "Rightel" |
   "Rotate" |
   "RotateRight" |
-  "Samantel" |
   "Scale" |
   "ScanQr" |
   "Search" |
   "SearchText" |
   "Share" |
-  "Shatel" |
   "ShieldCheck" |
   "ShieldQuestion" |
   "SimCard" |
-  "Simcard2" |
   "SlidersHorizontal" |
   "SlidersHorizontalAlt" |
   "Star" |
   "Sun" |
-  "Telecom" |
-  "Trabord" |
   "Trash" |
   "TriangleExclamation" |
   "Truck" |
   "Unlock" |
-  "Upload2" |
   "User" |
   "User2" |
   "UserChange" |
@@ -172,7 +142,5 @@ type IconTypeName =
   "UserSquare" |
   "Vector" |
   "Video" |
-  "Voicemail" |
-  "Water" |
-  "WaterWhite"
+  "Voicemail"
   ;

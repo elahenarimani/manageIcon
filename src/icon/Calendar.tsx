@@ -1,6 +1,7 @@
-import type { IIcon } from "./type"
+import { ICON_CONSTANTS } from "../constants/icon-constants"
+import type { IIconProps } from "./type"
 
-export const Calendar: React.FC<IIcon> = ({color="#000" , size=24}) => {
+export const Calendar: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color , size=24}) => {
     // width="20" height="21"
     return (
         <svg width={size} height={size} viewBox="0 0 20 21" fill={color} xmlns="http://www.w3.org/2000/svg">
