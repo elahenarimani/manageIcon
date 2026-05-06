@@ -36,7 +36,7 @@ function App() {
           </div>
         ))}
       </div>
-      <div className='w-1/4 flex flex-col justify-start items-right gap-5 border-left-solid border-left-[#000000] h-screen fixed right-0 top-0 pt-16 pr-8'>
+      <div className='w-1/4 flex flex-col justify-start items-right gap-5 border-left-solid border-left-[#000000] h-screen fixed right-0 top-0 pt-16 px-8 border-l-1 border-l-gray-100'>
         <p className='-mb-4'>search</p>
         <div className="relative w-full">
           <div className="absolute left-2 top-1/2 -translate-y-1/2 text-gray-400">
