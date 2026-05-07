@@ -22,7 +22,7 @@ function App() {
   );
 
   return (
-    <div className="max-w-full bg-white py-10 flex-col-reverse flex lg:flex-row justify-between md:items-start mx-2 md:mx-20 gap-10 items-center">
+    <div className="max-w-full bg-white py-5 flex-col-reverse flex lg:flex-row justify-between mx-2 md:mx-20 gap-10 items-center">
       <div className="w-full md:w-3/4 h-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-y-17 gap-x-15 flex-wrap px-4 md:px-10 overflow-y-auto">
         {icons.map((name) => (
           <div
@@ -36,7 +36,7 @@ function App() {
           </div>
         ))}
       </div>
-      <div className="w-full  sm:w-1/2 md:w-1/4 flex flex-col justify-start items-right gap-5 border-left-solid border-left-[#000000] h-full md:fixed md:right-0 md:top-0 pt:4 md:pt-16 px-8 md:border-l-1 md:border-l-gray-100">
+      <div className="w-full  sm:w-1/2 md:w-1/4 flex flex-col justify-start items-right gap-5  border-left-solid border-left-[#000000] h-full md:fixed md:right-0 md:top-0 pt:4 md:pt-16 px-8 border-b-1 border-b-gray-100 md:border-l-1 md:border-l-gray-100">
         <p className="-mb-4">search</p>
         <div className="relative w-full">
           <div className="absolute left-2 top-1/2 -translate-y-1/2 text-gray-400">
