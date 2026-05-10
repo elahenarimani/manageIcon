@@ -22,7 +22,7 @@ function App() {
     name.toLowerCase().includes(search.toLowerCase()),
   );
   return (
-    <div className="py-5 text-center">
+    <div className="py-5 text-center bg-white">
       <h2 className=" text-indigo-400 font-bold text-2xl h-16 ">Icon Library</h2>
       <div className="max-w-full bg-white py-5 flex-col-reverse flex lg:flex-row justify-between mx-2 md:mx-20 gap-10 items-center">
         <div className="w-full md:w-3/4 h-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-y-17 gap-x-15 flex-wrap px-4 md:px-10 overflow-y-auto">

@@ -1,10 +1,10 @@
 import { ICON_CONSTANTS } from "../constants/icon-constants"
 import type { IIconProps } from "./type"
 
-export const Check: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color, size=24}) => {
+export const Check: React.FC<IIconProps> = ({ color = ICON_CONSTANTS.color, size = 24 }) => {
     return (
-        <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
-            <path d="M19.3542 7.35426L9.35425 17.3543C9.26025 17.4483 9.13324 17.5003 9.00024 17.5003C8.88724 17.4883 8.73824 17.4463 8.64424 17.3513L4.64424 13.2893C4.45124 13.0923 4.45324 12.7762 4.65024 12.5822C4.84624 12.3882 5.16324 12.3912 5.35724 12.5872L9.00325 16.2902L18.6472 6.64625C18.8422 6.45125 19.1592 6.45125 19.3542 6.64625C19.5492 6.84125 19.5492 7.15826 19.3542 7.35426Z" fill={color} />
+        <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.3542 7.35426L9.35425 17.3543C9.26025 17.4483 9.13324 17.5003 9.00024 17.5003C8.88724 17.4883 8.73824 17.4463 8.64424 17.3513L4.64424 13.2893C4.45124 13.0923 4.45324 12.7762 4.65024 12.5822C4.84624 12.3882 5.16324 12.3912 5.35724 12.5872L9.00325 16.2902L18.6472 6.64625C18.8422 6.45125 19.1592 6.45125 19.3542 6.64625C19.5492 6.84125 19.5492 7.15826 19.3542 7.35426Z" fill={color || ICON_CONSTANTS.color} />
         </svg>
     )
 }

@@ -1,10 +1,10 @@
 import { ICON_CONSTANTS } from "../constants/icon-constants"
 import type { IIconProps } from "./type"
 
-export const Home: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color, size=24}) => {
+export const Home: React.FC<IIconProps> = ({ color = ICON_CONSTANTS.color, size = 24 }) => {
     return (
-        <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
-            <path fillRule="evenodd" clipRule="evenodd" d="M18 21H14.8C14.634 21 14.5 20.866 14.5 20.7V16.5C14.5 15.119 13.381 14 12 14C10.619 14 9.5 15.119 9.5 16.5V20.7C9.5 20.866 9.36595 21 9.19995 21H6C4 21 3 20 3 18V11.651C3 9.65302 3.52305 9.34608 4.43005 8.58608L10.394 3.58498C11.323 2.80598 12.6781 2.80598 13.6071 3.58498L19.571 8.58608C20.477 9.34608 21.001 9.65302 21.001 11.651V18C21 20 20 21 18 21Z" fill={color}/>
+        <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.049 8.33299L13.928 3.20103C12.811 2.26403 11.19 2.26503 10.073 3.20103L3.95203 8.33299C3.02503 9.10199 2.50098 9.63501 2.50098 11.65V18C2.50098 20.29 3.71098 21.5 6.00098 21.5H10.001V16.5C10.001 15.397 10.898 14.5 12.001 14.5C13.104 14.5 14.001 15.397 14.001 16.5V21.5H18.001C20.291 21.5 21.501 20.29 21.501 18V11.65C21.5 9.63601 20.976 9.10299 20.049 8.33299ZM20.5 18C20.5 19.729 19.729 20.5 18 20.5H15V16.5C15 14.846 13.654 13.5 12 13.5C10.346 13.5 9 14.846 9 16.5V20.5H6C4.271 20.5 3.5 19.729 3.5 18V11.65C3.5 10.007 3.81897 9.74201 4.58997 9.10301L10.715 3.968C11.459 3.343 12.541 3.344 13.285 3.968L19.41 9.10301C20.181 9.74301 20.5 10.007 20.5 11.65V18Z" fill={color || ICON_CONSTANTS.color} />
         </svg>
     )
 }

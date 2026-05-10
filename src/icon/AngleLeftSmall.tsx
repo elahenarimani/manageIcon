@@ -1,10 +1,11 @@
 import { ICON_CONSTANTS } from "../constants/icon-constants"
 import type { IIconProps } from "./type"
 
-export const AngleLeftSmall: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color , size=24}) => {
+export const AngleLeftSmall: React.FC<IIconProps> = ({ color = ICON_CONSTANTS.color, size = 24 }) => {
     return (
-        <svg width={size} height={size} viewBox="0 0 28 28" fill={color} xmlns="http://www.w3.org/2000/svg">
-            <path d="M16.3334 19.5418C16.1094 19.5418 15.8854 19.4567 15.715 19.2852L11.0484 14.6185C10.7065 14.2767 10.7065 13.7225 11.0484 13.3806L15.715 8.71396C16.0569 8.37212 16.6111 8.37212 16.9529 8.71396C17.2947 9.05579 17.2947 9.61 16.9529 9.95183L12.9046 14.0001L16.9529 18.0484C17.2947 18.3903 17.2947 18.9445 16.9529 19.2863C16.7814 19.4566 16.5574 19.5418 16.3334 19.5418Z" fill={color} />
+        <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.3543 15.646C14.5493 15.841 14.5493 16.158 14.3543 16.353C14.2563 16.451 14.1283 16.499 14.0003 16.499C13.8723 16.499 13.7442 16.45 13.6462 16.353L9.64625 12.353C9.45125 12.158 9.45125 11.841 9.64625 11.646L13.6462 7.64601C13.8412 7.45101 14.1583 7.45101 14.3533 7.64601C14.5483 7.84101 14.5483 8.15804 14.3533 8.35304L10.7073 11.999L14.3543 15.646Z" fill={color || ICON_CONSTANTS.color} />
         </svg>
+
     )
 }

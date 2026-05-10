@@ -1,10 +1,10 @@
 import { ICON_CONSTANTS } from "../constants/icon-constants"
 import type { IIconProps } from "./type"
 
-export const PlusCircle: React.FC<IIconProps> = ({color=ICON_CONSTANTS.color , size=24}) => {
+export const PlusCircle: React.FC<IIconProps> = ({ color = ICON_CONSTANTS.color, size = 24 }) => {
     return (
-        <svg width={size} height={size} viewBox="0 0 24 25" fill={color} xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2.5C6.48 2.5 2 6.98 2 12.5C2 18.02 6.48 22.5 12 22.5C17.52 22.5 22 18.02 22 12.5C22 6.98 17.52 2.5 12 2.5ZM15.5 13.25H12.75V16C12.75 16.41 12.41 16.75 12 16.75C11.59 16.75 11.25 16.41 11.25 16V13.25H8.5C8.09 13.25 7.75 12.91 7.75 12.5C7.75 12.09 8.09 11.75 8.5 11.75H11.25V9C11.25 8.59 11.59 8.25 12 8.25C12.41 8.25 12.75 8.59 12.75 9V11.75H15.5C15.91 11.75 16.25 12.09 16.25 12.5C16.25 12.91 15.91 13.25 15.5 13.25Z" fill={color} />
+        <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 1.5C6.21 1.5 1.5 6.21 1.5 12C1.5 17.79 6.21 22.5 12 22.5C17.79 22.5 22.5 17.79 22.5 12C22.5 6.21 17.79 1.5 12 1.5ZM12 21.5C6.762 21.5 2.5 17.238 2.5 12C2.5 6.762 6.762 2.5 12 2.5C17.238 2.5 21.5 6.762 21.5 12C21.5 17.238 17.238 21.5 12 21.5ZM16 12C16 12.276 15.776 12.5 15.5 12.5H12.5V15.5C12.5 15.776 12.276 16 12 16C11.724 16 11.5 15.776 11.5 15.5V12.5H8.5C8.224 12.5 8 12.276 8 12C8 11.724 8.224 11.5 8.5 11.5H11.5V8.5C11.5 8.224 11.724 8 12 8C12.276 8 12.5 8.224 12.5 8.5V11.5H15.5C15.776 11.5 16 11.724 16 12Z" fill={color || ICON_CONSTANTS.color} />
         </svg>
     )
 }
