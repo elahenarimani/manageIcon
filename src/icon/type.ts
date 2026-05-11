@@ -30,13 +30,13 @@ export type TIconName =
   "Document" |
   "DocumentFilled" |
   "DocumentList" |
-  "DocumentOutlinedRegular" |
+  "DocumentRegular" |
   "Briefcase" |
   "BriefcaseCheck" |
   "BriefcaseMoney" |
   "BriefcaseMoneyRegular" |
   "BriefcasePlus" |
-  "BriefcasePlusOutlinedRegular" |
+  "BriefcasePlusRegular" |
   "BuildingsAlt" |
   "Calendar" |
   "CalendarCheckAlt" |
@@ -47,52 +47,59 @@ export type TIconName =
   "Check" |
   "CheckCircleFilled" |
   "CheckDouble" |
-  "CheckSquareOutlined" |
+  "CheckSquare" |
   "CheckSquareFilled" |
   "ClipboardPlus" |
   "Coins" |
+  "CoinsRegular" |
   "CommentLock" |
   "CopyAlt" |
   "CreditCard" |
-  "CreditCardOutlinedRegular" |
+  "CreditCardRegular" |
   "CreditCardFilled" |
   "CreditCardCheck" |
   "CreditCardConvert" |
   "CreditCardConvertFilled" |
   "CreditCardEdit" |
   "CreditCardPlus" |
-  "CreditCardPlusOutlinedRegular" |
+  "CreditCardPlusRegular" |
   "CreditCardSlash" |
   "Document" |
   "Edit" |
+  "EditRegular" |
   "ExchangeHorizontalFilled" |
   "ExchangeHorizontal" |
-  "ExchangeHorizontalOutlinedRegular" |
+  "ExchangeHorizontalRegular" |
   "InfoCircleFilled" |
   "Eye" |
   "EyeSlash" |
   "FilePdf" |
   "FilterPlus" |
   "FingerPrint" |
+  "FileTextSearch" |
+  "FileTextSearchRegular" |
+  "Gas" |
   "Gift" |
   "GiftFilled" |
-  "GlobeOutlinedRegular" |
+  "GlobeRegular" |
   "Globe" |
   "HeadPhones" |
   "Home" |
-  "HomeOutlinedRegular" |
+  "HomeRegular" |
   "HomeFilled" |
   "IdCard" |
   "ImageGallery" |
   "Invoice" |
+  "Irancell" |
   "Key" |
   "KeyCircle" |
   "LayerGroup" |
   "LocationPin" |
-  "LocationPinOutlinedRegular" |
+  "LocationPinRegular" |
   "LogOut" |
+  "Mci" |
   "Message" |
-  "MessageOutLinedRegular" |
+  "MessageRegular" |
   "MessageText" |
   "MessagesText" |
   "Mobile" |
@@ -112,7 +119,7 @@ export type TIconName =
   "MoreVertical" |
   "Nut" |
   "Pen" |
-  "PenLineOutlineRegular" |
+  "PenLineRegular" |
   "PenLine" |
   "PhoneOffice" |
   "Pin" |
@@ -126,23 +133,29 @@ export type TIconName =
   "QuestionCircleFilled" |
   "RadioButton" |
   "RecepieSearch" |
+  "RecepieSearchRegular" |
+  "Rightel" |
   "Rotate" |
+  "Rightel" |
   "RotateRight" |
+  "SamanTel" |
   "Scale" |
   "ScanQr" |
   "Search" |
   "SearchText" |
   "Share" |
+  "Shatel" |
   "ShieldCheck" |
   "ShieldQuestionFilled" |
   "SimCardFilled" |
   "AddSimCard" |
   "SlidersHorizontal" |
-  "SlidersHorizontalOutlinedRegular" |
+  "SlidersHorizontalRegular" |
   "SlidersHorizontalAlt" |
   "StarOutlined" |
   "StarFilled" |
   "Sun" |
+  "Tel" |
   "Trash" |
   "Times" |
   "TimesCircle" |
@@ -151,7 +164,7 @@ export type TIconName =
   "Truck" |
   "Unlock" |
   "User" |
-  "UserOutlinedRegular" |
+  "UserRegular" |
   "UserFilled" |
   "UserChange" |
   "UserCircle" |
@@ -159,7 +172,7 @@ export type TIconName =
   "UserSearch" |
   "UserSquare" |
   "Video" |
-  "VideoOutlinedRegular" |
+  "VideoRegular" |
   "VideoFilled" |
   "Voicemail" |
   "Water"

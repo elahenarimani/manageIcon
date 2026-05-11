@@ -1,7 +1,7 @@
 import { ICON_CONSTANTS } from "../constants/icon-constants"
 import type { IIconProps } from "./type"
 
-export const UserOutlinedRegular: React.FC<IIconProps> = ({ color = ICON_CONSTANTS.color, size = 24 }) => {
+export const UserRegular: React.FC<IIconProps> = ({ color = ICON_CONSTANTS.color, size = 24 }) => {
     // width="16" height="21"
     return (
         <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -13,7 +13,7 @@ import { Bank } from '../Bank'
 import { Bell } from '../Bell'
 import { Bolt } from '../Bolt'
 import { BookmarkStar } from '../BookmarkStar'
-import { BriefcaseOutlinedRegular } from "../BriefcaseOutlinedRegular"
+
 import { Briefcase } from '../Briefcase'
 import { BriefcaseCheck } from '../BriefcaseCheck'
 import { BriefcaseMoney } from '../BriefcaseMoney'
@@ -26,7 +26,7 @@ import { ChatText } from '../ChatText'
 import { Check } from '../Check'
 import { CheckCircleFilled } from '../CheckCircleFilled'
 import { CheckDouble } from '../CheckDouble'
-import { CheckSquareOutlined } from '../CheckSquareOutlined'
+import { CheckSquare } from '../CheckSquare'
 import { ClipboardPlus } from '../ClipboardPlus'
 import { Coins } from '../Coins'
 import { CommentLock } from '../CommentLock'
@@ -102,7 +102,7 @@ import { TriangleExclamationFilled } from '../TriangleExclamation'
 import { Truck } from '../Truck'
 import { Unlock } from '../Unlock'
 import { User } from '../User'
-import { UserOutlinedRegular } from '../UserOutlinedRegular'
+import {  UserRegular } from '../UserRegular'
 import { UserChange } from '../UserChange'
 import { UserCircle } from '../UserCircle'
 import { UserPlus } from '../UserPlus'
@@ -112,24 +112,24 @@ import { Video } from '../Video'
 import { Voicemail } from '../Voicemail'
 import { Scale } from '../Scale'
 import { Document } from "../Document"
-import { PenLineOutlineRegular } from "../PenLineOutlineRegular"
+import { PenLineRegular } from "../PenLineRegular"
 import { BriefcaseMoneyRegular } from "../BriefcaseMoneyRegular"
-import { BriefcasePlusOutlinedRegular } from "../BriefcasePlusOutlinedRegular"
-import { SlidersHorizontalOutlinedRegular } from "../SlidersHorizontalOutlinedRegular"
+import { BriefcasePlusRegular } from "../BriefcasePlusRegular"
+import { SlidersHorizontalRegular } from "../SlidersHorizontalRegular"
 import { AddressBookRegular } from "../AddressBookRegular"
-import { MessageOutLinedRegular } from "../MessageOutLinedRegular"
-import { VideoOutlinedRegular } from "../VideoOutlinedRegular"
-import { CreditCardPlusOutlinedRegular } from "../CreditCardPlusOutlinedRegular"
-import { CreditCardOutlinedRegular } from "../CreditCardOutlinedRegular"
-import { ExchangeHorizontalOutlinedRegular } from "../ExchangeHorizontalOutlinedRegular"
-import { LocationPinOutlinedRegular } from "../LocationPinOutlinedRegular"
+import { MessageRegular } from "../MessageRegular"
+import {  VideoRegular } from "../VideoRegular"
+import { CreditCardPlusRegular } from "../CreditCardPlusRegular"
+import { CreditCardRegular } from "../CreditCardRegular"
+import { ExchangeHorizontalRegular } from "../ExchangeHorizontalRegular"
+import { LocationPinRegular } from "../LocationPinRegular"
 import { AngleLeft } from "../AngleLeft"
 import { Times } from "../Times"
 import { AngleLeftSmall } from "../AngleLeftSmall"
 import { AngleDownSmall } from "../AngleDownSmall"
 import { DocumentList } from "../DocumentList"
 import { TimesCircle } from "../TimesCircle"
-import { HomeOutlinedRegular } from "../HomeOutlinedRegular"
+import {  HomeRegular } from "../HomeRegular"
 import { ChatDots } from "../ChatDots"
 import { AddSimCard } from "../AddSimCard"
 import { Home } from "../Home"
@@ -152,10 +152,22 @@ import { BankFilled } from "../BankFilled"
 import { BookmarkStarFill } from "../BookmarkStarFill"
 import { AnglesUpSmall } from "../AnglesUpSmall"
 import { CheckSquareFilled } from "../CheckSquareFilled"
-import { DocumentOutlinedRegular } from "../DocumentOutlinedRegular"
-import { GlobeOutlinedRegular } from "../GlobeOutlinedRegular"
+import { DocumentRegular } from "../DocumentRegular"
+import { GlobeRegular } from "../GlobeRegular"
 import { Water } from "../Water"
 import { Power } from "../Power"
+import { EditRegular } from "../EditRegular"
+import { RecepieSearchRegular } from "../RecepieSearchRegular"
+import { Mci } from "../Mci"
+import { Tel } from "../Tel"
+import { Irancell } from "../Irancell"
+import { Rightel } from "../Rightel"
+import { SamanTel } from "../SamanTel"
+import { Shatel } from "../Shatel"
+import { Gas } from "../Gas"
+import { CoinsRegular } from "../CoinsRegular"
+import { FileTextSearchRegular } from "../FileTextSearchRegular"
+import { FileTextSearch } from "../FileTextSearch"
 
 export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   ActivitySquare: ActivitySquare,
@@ -180,12 +192,12 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   BookmarkStar: BookmarkStar,
   BookmarkStarFill: BookmarkStarFill,
   Briefcase: Briefcase,
-  BriefcaseOutlinedRegular: BriefcaseOutlinedRegular,
+  BriefcaseRegular: BriefcaseMoneyRegular,
   BriefcaseCheck: BriefcaseCheck,
   BriefcaseMoney: BriefcaseMoney,
   BriefcaseMoneyRegular: BriefcaseMoneyRegular,
   BriefcasePlus: BriefcasePlus,
-  BriefcasePlusOutlinedRegular: BriefcasePlusOutlinedRegular,
+  BriefcasePlusRegular: BriefcasePlusRegular,
   BuildingsAlt: BuildingsAlt,
   Calendar: Calendar,
   CalendarCheckAlt: CalendarCheckAlt,
@@ -194,31 +206,33 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   ChatText: ChatText,
   ChatDots: ChatDots,
   Check: Check,
-  CheckSquareOutlined: CheckSquareOutlined,
+  CheckSquare: CheckSquare,
   CheckSquareFilled: CheckSquareFilled,
   CheckCircleFilled: CheckCircleFilled,
   CheckDouble: CheckDouble,
   ClipboardPlus: ClipboardPlus,
   Coins: Coins,
+  CoinsRegular:CoinsRegular,
   CommentLock: CommentLock,
   CopyAlt: CopyAlt,
   CreditCard: CreditCard,
-  CreditCardOutlinedRegular: CreditCardOutlinedRegular,
+  CreditCardRegular: CreditCardRegular,
   CreditCardFilled: CreditCardFilled,
   CreditCardCheck: CreditCardCheck,
   CreditCardConvert: CreditCardConvert,
   CreditCardConvertFilled: CreditCardConvertFilled,
   CreditCardEdit: CreditCardEdit,
   CreditCardPlus: CreditCardPlus,
-  CreditCardPlusOutlinedRegular: CreditCardPlusOutlinedRegular,
+  CreditCardPlusRegular: CreditCardPlusRegular,
   CreditCardSlash: CreditCardSlash,
   Document: Document,
-  DocumentOutlinedRegular: DocumentOutlinedRegular,
+  DocumentRegular: DocumentRegular,
   DocumentFilled: DocumentFilled,
   DocumentList: DocumentList,
   Edit: Edit,
+  EditRegular : EditRegular,
   ExchangeHorizontal: ExchangeHorizontal,
-  ExchangeHorizontalOutlinedRegular: ExchangeHorizontalOutlinedRegular,
+  ExchangeHorizontalRegular: ExchangeHorizontalRegular,
   ExchangeHorizontalFilled: ExchangeHorizontalFilled,
   InfoCircleFilled: InfoCircleFilled,
   Eye: Eye,
@@ -226,25 +240,30 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   FilePdf: FilePdf,
   FilterPlus: FilterPlus,
   FingerPrint: FingerPrint,
+  FileTextSearch:FileTextSearch,
+  FileTextSearchRegular:FileTextSearchRegular,
+  Gas:Gas,
   Gift: Gift,
   GiftFilled: GiftFilled,
   Globe: Globe,
-  GlobeOutlinedRegular: GlobeOutlinedRegular,
+  GlobeRegular: GlobeRegular,
   HeadPhones: HeadPhones,
   Home: Home,
-  HomeOutlinedRegular: HomeOutlinedRegular,
+  HomeRegular: HomeRegular,
   HomeFilled: HomeFilled,
   IdCard: IdCard,
   ImageGallery: ImageGallery,
   Invoice: Invoice,
+  Irancell:Irancell,
   Key: Key,
   KeyCircle: KeyCircle,
   LayerGroup: LayerGroup,
   LocationPin: LocationPin,
-  LocationPinOutlinedRegular: LocationPinOutlinedRegular,
+  LocationPinRegular: LocationPinRegular,
   LogOut: LogOut,
+  Mci: Mci,
   Message: Message,
-  MessageOutLinedRegular: MessageOutLinedRegular,
+  MessageRegular: MessageRegular,
   MessageText: MessageText,
   MessagesText: MessagesText,
   Mobile: Mobile,
@@ -264,7 +283,7 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   MoreVertical: MoreVertical,
   Nut: Nut,
   Pen: Pen,
-  PenLineOutlineRegular: PenLineOutlineRegular,
+  PenLineRegular: PenLineRegular,
   PenLine: PenLine,
   PhoneOffice: PhoneOffice,
   Pin: Pin,
@@ -278,23 +297,28 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   QuestionCircleFilled: QuestionCircleFilled,
   RadioButton: RadioButton,
   RecepieSearch: RecepieSearch,
+  RecepieSearchRegular :RecepieSearchRegular,
   Rotate: Rotate,
+  Rightel:Rightel,
   RotateRight: RotateRight,
+  SamanTel:SamanTel,
   Scale: Scale,
   ScanQr: ScanQr,
   Search: Search,
   SearchText: SearchText,
   Share: Share,
+  Shatel:Shatel,
   ShieldCheck: ShieldCheck,
   ShieldQuestionFilled: ShieldQuestionFilled,
   SimCardFilled: SimCardFilled,
   AddSimCard: AddSimCard,
   SlidersHorizontal: SlidersHorizontal,
-  SlidersHorizontalOutlinedRegular: SlidersHorizontalOutlinedRegular,
+  SlidersHorizontalRegular: SlidersHorizontalRegular,
   SlidersHorizontalAlt: SlidersHorizontalAlt,
   StarOutlined: StarOutlined,
   StarFilled: StarFilled,
   Sun: Sun,
+  Tel:Tel,
   Trash: Trash,
   Times: Times,
   TimesCircle: TimesCircle,
@@ -303,7 +327,7 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   Truck: Truck,
   Unlock: Unlock,
   User: User,
-  UserOutlinedRegular: UserOutlinedRegular,
+  UserRegular: UserRegular,
   UserFilled: UserFilled,
   UserChange: UserChange,
   UserCircle: UserCircle,
@@ -311,7 +335,7 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   UserSearch: UserSearch,
   UserSquare: UserSquare,
   Video: Video,
-  VideoOutlinedRegular: VideoOutlinedRegular,
+  VideoRegular: VideoRegular,
   VideoFilled: VideoFilled,
   Voicemail: Voicemail,
   Water:Water,
