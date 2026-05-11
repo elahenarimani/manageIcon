@@ -7,12 +7,13 @@ export interface IIconProps {
 export type TIconName =
   "ActivitySquare" |
   "AddressBook" |
-  "AddressBookOutlinedRegular" |
+  "AddressBookRegular" |
   "AngleDown" |
   "AngleLeft" |
   "AngleLeftSmall" |
   "AngleRight" |
-  "AnglesDown" |
+  "AnglesDownSmall" |
+  "AnglesUpSmall" |
   "AngleDownSmall" |
   "ArrowDownFromLine" |
   "ArrowDownSmall" |
@@ -20,33 +21,34 @@ export type TIconName =
   "ArrowUpFromLine" |
   "ArrowUpSmall" |
   "Bank" |
+  "BankFilled" |
   "Bell" |
   "Bolt" |
-  "BookmarkFill" |
+  "BookmarkStarFill" |
   "BookmarkStar" |
-  "Briefcase_outlined_regular" |
+  "BriefcaseRegular" |
   "Document" |
   "DocumentFilled" |
   "DocumentList" |
-  "Document_outlined_regular" |
+  "DocumentOutlinedRegular" |
   "Briefcase" |
   "BriefcaseCheck" |
   "BriefcaseMoney" |
-  "BriefcaseMoneyOutlinedRegular" |
+  "BriefcaseMoneyRegular" |
   "BriefcasePlus" |
   "BriefcasePlusOutlinedRegular" |
   "BuildingsAlt" |
   "Calendar" |
   "CalendarCheckAlt" |
   "Camera" |
+  "CaretLeftFilled" |
   "ChatText" |
   "ChatDots" |
   "Check" |
-  "Checkbox" |
-  "CheckCircle" |
-  "CheckCircle2" |
+  "CheckCircleFilled" |
   "CheckDouble" |
   "CheckSquareOutlined" |
+  "CheckSquareFilled" |
   "ClipboardPlus" |
   "Coins" |
   "CommentLock" |
@@ -56,12 +58,12 @@ export type TIconName =
   "CreditCardFilled" |
   "CreditCardCheck" |
   "CreditCardConvert" |
+  "CreditCardConvertFilled" |
   "CreditCardEdit" |
   "CreditCardPlus" |
   "CreditCardPlusOutlinedRegular" |
   "CreditCardSlash" |
   "Document" |
-  "DocumentListSmall" |
   "Edit" |
   "ExchangeHorizontalFilled" |
   "ExchangeHorizontal" |
@@ -69,27 +71,23 @@ export type TIconName =
   "InfoCircleFilled" |
   "Eye" |
   "EyeSlash" |
-  "FaildIcon" |
   "FilePdf" |
   "FilterPlus" |
   "FingerPrint" |
-  "Gallery" |
   "Gift" |
   "GiftFilled" |
-  "Globeـoutlineـregular" |
+  "GlobeOutlinedRegular" |
   "Globe" |
   "HeadPhones" |
   "Home" |
   "HomeOutlinedRegular" |
   "HomeFilled" |
-  "IconRotateRight90" |
   "IdCard" |
   "ImageGallery" |
   "Invoice" |
   "Key" |
   "KeyCircle" |
   "LayerGroup" |
-  "Line" |
   "LocationPin" |
   "LocationPinOutlinedRegular" |
   "LogOut" |
@@ -102,6 +100,7 @@ export type TIconName =
   "MoneyBillBan" |
   "MoneyBillCheck" |
   "MoneyBillConvert" |
+  "MoneyBillConvertFilled" |
   "MoneyBillReceive" |
   "MoneyBills" |
   "MoneyBillSearch" |
@@ -111,7 +110,6 @@ export type TIconName =
   "Moon" |
   "MoreHorizontal" |
   "MoreVertical" |
-  "MyLoan" |
   "Nut" |
   "Pen" |
   "PenLineOutlineRegular" |
@@ -122,6 +120,7 @@ export type TIconName =
   "Plus" |
   "PlusCircle" |
   "PlusCircleFilled" |
+  "Power" |
   "BoxSearch" |
   "QuestionCircle" |
   "QuestionCircleFilled" |
@@ -136,31 +135,32 @@ export type TIconName =
   "Share" |
   "ShieldCheck" |
   "ShieldQuestionFilled" |
-  "SimCard" |
+  "SimCardFilled" |
   "AddSimCard" |
   "SlidersHorizontal" |
   "SlidersHorizontalOutlinedRegular" |
   "SlidersHorizontalAlt" |
   "StarOutlined" |
-  "StarFilled"|
+  "StarFilled" |
   "Sun" |
   "Trash" |
   "Times" |
   "TimesCircle" |
+  "TimesCircleFilled" |
   "TriangleExclamationFilled" |
   "Truck" |
   "Unlock" |
   "User" |
-  "UserOutlinedRegular"|
-  "UserFilled"|
+  "UserOutlinedRegular" |
+  "UserFilled" |
   "UserChange" |
   "UserCircle" |
-
   "UserPlus" |
   "UserSearch" |
   "UserSquare" |
-  "Vector" |
   "Video" |
   "VideoOutlinedRegular" |
-  "Voicemail"
+  "VideoFilled" |
+  "Voicemail" |
+  "Water"
   ;
