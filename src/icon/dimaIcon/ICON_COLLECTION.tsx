@@ -168,6 +168,7 @@ import { Gas } from "../Gas"
 import { CoinsRegular } from "../CoinsRegular"
 import { FileTextSearchRegular } from "../FileTextSearchRegular"
 import { FileTextSearch } from "../FileTextSearch"
+import { BriefcaseRegular } from "../BriefcaseRegular"
 
 export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   ActivitySquare: ActivitySquare,
@@ -192,7 +193,7 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   BookmarkStar: BookmarkStar,
   BookmarkStarFill: BookmarkStarFill,
   Briefcase: Briefcase,
-  BriefcaseRegular: BriefcaseMoneyRegular,
+  BriefcaseRegular: BriefcaseRegular,
   BriefcaseCheck: BriefcaseCheck,
   BriefcaseMoney: BriefcaseMoney,
   BriefcaseMoneyRegular: BriefcaseMoneyRegular,
@@ -283,8 +284,8 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   MoreVertical: MoreVertical,
   Nut: Nut,
   Pen: Pen,
-  PenLineRegular: PenLineRegular,
   PenLine: PenLine,
+  PenLineRegular: PenLineRegular,
   PhoneOffice: PhoneOffice,
   Pin: Pin,
   PinFilled: PinFilled,
