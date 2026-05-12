@@ -50,6 +50,7 @@ export type TIconName =
   "CheckSquare" |
   "CheckSquareFilled" |
   "ClipboardPlus" |
+  "ClipboardPlusRegular" |
   "Coins" |
   "CoinsRegular" |
   "CommentLock" |

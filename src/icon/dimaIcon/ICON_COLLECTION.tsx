@@ -169,6 +169,7 @@ import { CoinsRegular } from "../CoinsRegular"
 import { FileTextSearchRegular } from "../FileTextSearchRegular"
 import { FileTextSearch } from "../FileTextSearch"
 import { BriefcaseRegular } from "../BriefcaseRegular"
+import { ClipboardPlusRegular } from "../ClipboardPlusRegular"
 
 export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   ActivitySquare: ActivitySquare,
@@ -212,6 +213,7 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   CheckCircleFilled: CheckCircleFilled,
   CheckDouble: CheckDouble,
   ClipboardPlus: ClipboardPlus,
+  ClipboardPlusRegular:ClipboardPlusRegular,
   Coins: Coins,
   CoinsRegular:CoinsRegular,
   CommentLock: CommentLock,
