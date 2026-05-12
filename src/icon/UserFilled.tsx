@@ -1,5 +1,5 @@
 import { ICON_CONSTANTS } from "../constants/icon-constants"
-import type { IIconProps } from "./type"
+import type { IIconProps } from "../type"
 
 export const UserFilled: React.FC<IIconProps> = ({ color = ICON_CONSTANTS.color, size = 24 }) => {
     // width="16" height="21"

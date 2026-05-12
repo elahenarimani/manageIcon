@@ -1,6 +1,6 @@
 import { ICON_CONSTANTS } from "../constants/icon-constants"
-import type { IIconProps } from "./type"
-export const ActivitySquare: React.FC<IIconProps> = ({ color = ICON_CONSTANTS.color, size = 24 }) => {
+import type { IIconProps } from "../type"
+export const ActivitySquare: React.FC<IIconProps> = ({ color = ICON_CONSTANTS.color, size = 24  }) => {
     //width="24" height="25"
     return (
         <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

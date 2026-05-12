@@ -1,5 +1,5 @@
 import { ICON_CONSTANTS } from "../constants/icon-constants"
-import type { IIconProps } from "./type"
+import type { IIconProps } from "../type"
 
 export const UserSquare: React.FC<IIconProps> = ({ color = ICON_CONSTANTS.color, size = 24 }) => {
     return (

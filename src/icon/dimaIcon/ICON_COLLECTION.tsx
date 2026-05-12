@@ -1,4 +1,4 @@
-import type { IIconProps, TIconName } from "../type"
+import type { IBillIconProps, IIconProps, TBillsIconName, TIconName } from "../../type"
 import { ArrowLeft } from '../ArrowLeft'
 import { ActivitySquare } from '../ActivitySquare'
 import { AddressBook } from '../AddressBook'
@@ -102,7 +102,7 @@ import { TriangleExclamationFilled } from '../TriangleExclamation'
 import { Truck } from '../Truck'
 import { Unlock } from '../Unlock'
 import { User } from '../User'
-import {  UserRegular } from '../UserRegular'
+import { UserRegular } from '../UserRegular'
 import { UserChange } from '../UserChange'
 import { UserCircle } from '../UserCircle'
 import { UserPlus } from '../UserPlus'
@@ -118,7 +118,7 @@ import { BriefcasePlusRegular } from "../BriefcasePlusRegular"
 import { SlidersHorizontalRegular } from "../SlidersHorizontalRegular"
 import { AddressBookRegular } from "../AddressBookRegular"
 import { MessageRegular } from "../MessageRegular"
-import {  VideoRegular } from "../VideoRegular"
+import { VideoRegular } from "../VideoRegular"
 import { CreditCardPlusRegular } from "../CreditCardPlusRegular"
 import { CreditCardRegular } from "../CreditCardRegular"
 import { ExchangeHorizontalRegular } from "../ExchangeHorizontalRegular"
@@ -129,7 +129,7 @@ import { AngleLeftSmall } from "../AngleLeftSmall"
 import { AngleDownSmall } from "../AngleDownSmall"
 import { DocumentList } from "../DocumentList"
 import { TimesCircle } from "../TimesCircle"
-import {  HomeRegular } from "../HomeRegular"
+import { HomeRegular } from "../HomeRegular"
 import { ChatDots } from "../ChatDots"
 import { AddSimCard } from "../AddSimCard"
 import { Home } from "../Home"
@@ -154,17 +154,17 @@ import { AnglesUpSmall } from "../AnglesUpSmall"
 import { CheckSquareFilled } from "../CheckSquareFilled"
 import { DocumentRegular } from "../DocumentRegular"
 import { GlobeRegular } from "../GlobeRegular"
-import { Water } from "../Water"
-import { Power } from "../Power"
+import { Water } from "../../bills/Water"
+import { Power } from "../../bills/Power"
 import { EditRegular } from "../EditRegular"
 import { RecepieSearchRegular } from "../RecepieSearchRegular"
-import { Mci } from "../Mci"
-import { Tel } from "../Tel"
-import { Irancell } from "../Irancell"
-import { Rightel } from "../Rightel"
-import { SamanTel } from "../SamanTel"
-import { Shatel } from "../Shatel"
-import { Gas } from "../Gas"
+import { Mci } from "../../bills/Mci"
+import { Tel } from "../../bills/Tel"
+import { Irancell } from "../../bills/Irancell"
+import { Rightel } from "../../bills/Rightel"
+import { SamanTel } from "../../bills/SamanTel"
+import { Shatel } from "../../bills/Shatel"
+import { Gas } from "../../bills/Gas"
 import { CoinsRegular } from "../CoinsRegular"
 import { FileTextSearchRegular } from "../FileTextSearchRegular"
 import { FileTextSearch } from "../FileTextSearch"
@@ -213,9 +213,9 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   CheckCircleFilled: CheckCircleFilled,
   CheckDouble: CheckDouble,
   ClipboardPlus: ClipboardPlus,
-  ClipboardPlusRegular:ClipboardPlusRegular,
+  ClipboardPlusRegular: ClipboardPlusRegular,
   Coins: Coins,
-  CoinsRegular:CoinsRegular,
+  CoinsRegular: CoinsRegular,
   CommentLock: CommentLock,
   CopyAlt: CopyAlt,
   CreditCard: CreditCard,
@@ -233,7 +233,7 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   DocumentFilled: DocumentFilled,
   DocumentList: DocumentList,
   Edit: Edit,
-  EditRegular : EditRegular,
+  EditRegular: EditRegular,
   ExchangeHorizontal: ExchangeHorizontal,
   ExchangeHorizontalRegular: ExchangeHorizontalRegular,
   ExchangeHorizontalFilled: ExchangeHorizontalFilled,
@@ -243,9 +243,9 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   FilePdf: FilePdf,
   FilterPlus: FilterPlus,
   FingerPrint: FingerPrint,
-  FileTextSearch:FileTextSearch,
-  FileTextSearchRegular:FileTextSearchRegular,
-  Gas:Gas,
+  FileTextSearch: FileTextSearch,
+  FileTextSearchRegular: FileTextSearchRegular,
+  //  Gas:Gas,
   Gift: Gift,
   GiftFilled: GiftFilled,
   Globe: Globe,
@@ -257,14 +257,14 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   IdCard: IdCard,
   ImageGallery: ImageGallery,
   Invoice: Invoice,
-  Irancell:Irancell,
+  // Irancell:Irancell,
   Key: Key,
   KeyCircle: KeyCircle,
   LayerGroup: LayerGroup,
   LocationPin: LocationPin,
   LocationPinRegular: LocationPinRegular,
   LogOut: LogOut,
-  Mci: Mci,
+  // Mci: Mci,
   Message: Message,
   MessageRegular: MessageRegular,
   MessageText: MessageText,
@@ -294,23 +294,23 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   Plus: Plus,
   PlusCircle: PlusCircle,
   PlusCircleFilled: PlusCircleFilled,
-  Power:Power,
+  // Power:Power,
   BoxSearch: BoxSearch,
   QuestionCircle: QuestionCircle,
   QuestionCircleFilled: QuestionCircleFilled,
   RadioButton: RadioButton,
   RecepieSearch: RecepieSearch,
-  RecepieSearchRegular :RecepieSearchRegular,
+  RecepieSearchRegular: RecepieSearchRegular,
   Rotate: Rotate,
-  Rightel:Rightel,
+  // Rightel:Rightel,
   RotateRight: RotateRight,
-  SamanTel:SamanTel,
+  // SamanTel:SamanTel,
   Scale: Scale,
   ScanQr: ScanQr,
   Search: Search,
   SearchText: SearchText,
   Share: Share,
-  Shatel:Shatel,
+  // Shatel:Shatel,
   ShieldCheck: ShieldCheck,
   ShieldQuestionFilled: ShieldQuestionFilled,
   SimCardFilled: SimCardFilled,
@@ -321,7 +321,7 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   StarOutlined: StarOutlined,
   StarFilled: StarFilled,
   Sun: Sun,
-  Tel:Tel,
+  // Tel:Tel,
   Trash: Trash,
   Times: Times,
   TimesCircle: TimesCircle,
@@ -341,5 +341,16 @@ export const ICON_COLLECTION: Record<TIconName, React.FC<IIconProps>> = {
   VideoRegular: VideoRegular,
   VideoFilled: VideoFilled,
   Voicemail: Voicemail,
-  Water:Water,
+  // Water: Water,
+}
+export const BILL_COLLECTION: Record<TBillsIconName, React.FC<IBillIconProps>> = {
+  Gas: Gas,
+  Irancell: Irancell,
+  Mci: Mci,
+  SamanTel: SamanTel,
+  Power: Power,
+  Rightel: Rightel,
+  Shatel: Shatel,
+  Tel: Tel,
+  Water: Water,
 }

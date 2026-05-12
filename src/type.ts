@@ -2,7 +2,10 @@ export interface IIconProps {
   color?: string;
   size?: number | string;
 };
-
+export interface IBillIconProps {
+  width?: number | string;
+  ratio?: number;
+}
 
 export type TIconName =
   "ActivitySquare" |
@@ -79,7 +82,7 @@ export type TIconName =
   "FingerPrint" |
   "FileTextSearch" |
   "FileTextSearchRegular" |
-  "Gas" |
+  // "Gas" |
   "Gift" |
   "GiftFilled" |
   "GlobeRegular" |
@@ -91,14 +94,14 @@ export type TIconName =
   "IdCard" |
   "ImageGallery" |
   "Invoice" |
-  "Irancell" |
+  // "Irancell" |
   "Key" |
   "KeyCircle" |
   "LayerGroup" |
   "LocationPin" |
   "LocationPinRegular" |
   "LogOut" |
-  "Mci" |
+  // "Mci" |
   "Message" |
   "MessageRegular" |
   "MessageText" |
@@ -128,24 +131,23 @@ export type TIconName =
   "Plus" |
   "PlusCircle" |
   "PlusCircleFilled" |
-  "Power" |
+  // "Power" |
   "BoxSearch" |
   "QuestionCircle" |
   "QuestionCircleFilled" |
   "RadioButton" |
   "RecepieSearch" |
   "RecepieSearchRegular" |
-  "Rightel" |
   "Rotate" |
-  "Rightel" |
+  // "Rightel" |
   "RotateRight" |
-  "SamanTel" |
+  // "SamanTel" |
   "Scale" |
   "ScanQr" |
   "Search" |
   "SearchText" |
   "Share" |
-  "Shatel" |
+  // "Shatel" |
   "ShieldCheck" |
   "ShieldQuestionFilled" |
   "SimCardFilled" |
@@ -156,7 +158,7 @@ export type TIconName =
   "StarOutlined" |
   "StarFilled" |
   "Sun" |
-  "Tel" |
+  // "Tel" |
   "Trash" |
   "Times" |
   "TimesCircle" |
@@ -175,6 +177,17 @@ export type TIconName =
   "Video" |
   "VideoRegular" |
   "VideoFilled" |
-  "Voicemail" |
+  "Voicemail"
+  // "Water"
+  ;
+export type TBillsIconName =
+  "Tel" |
+  "Shatel" |
+  "SamanTel" |
+  "Rightel" |
+  "Power" |
+  "Mci" |
+  "Irancell" |
+  "Gas" |
   "Water"
   ;
